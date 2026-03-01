@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Om Marshivane — Portfolio</title>
+
+  <!-- Google Fonts: Playfair Display + DM Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <!-- Font  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════
+       NAVBAR
+  ═══════════════════════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">O.M<span>.</span></a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home"     class="nav-link">Home</a></li>
+        <li><a href="#about"    class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#contact"  class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════
+       HERO SECTION
+  ═══════════════════════════════ -->
+  <section class="hero" id="home">
+    <div class="hero-bg-text">PORTFOLIO</div>
+
+    <div class="hero-container">
+      <!-- Left: text -->
+      <div class="hero-text" data-animate>
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">OM<br /><em>MARSHIVANE</em></h1>
+        <p class="hero-tagline">Full-Stack Developer </p>
+        <p class="hero-intro">
+          I craft digital experiences that marry elegant code with thoughtful design —
+          turning complex problems into clean, performant solutions.
+        </p>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-outline">
+            <i class="fas fa-paper-plane"></i> Contact Me
+          </a>
+        </div>
+      </div>
+
+      <!-- Right: photo -->
+      <div class="hero-image" data-animate>
+        <div class="image-frame">
+          <!-- Placeholder avatar built in CSS -->
+           <img src="flowers.png" alt="Profile Image" class="profile-img">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <a href="#about" class="scroll-indicator">
+      <span></span>
+      <i class="fas fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- ═══════════════════════════════
+       ABOUT SECTION
+  ═══════════════════════════════ -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <span class="section-label">Who I Am</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+
+      <div class="about-grid">
+        <!-- Bio -->
+        <div class="about-bio" data-animate>
+          <p>
+            I'm a full-stack developer based in India with a passion for building
+            products that live at the intersection of beautiful design and robust engineering.
+            I specialize in JavaScript ecosystems — from React and Node.js to cloud-native
+            deployments.
+          </p>
+          <p>
+            When I'm not pushing pixels or debugging APIs, you'll find me contributing to
+            open-source projects, mentoring junior developers, or experimenting with
+            generative art.
+          </p>
+        </div>
+
+        <!-- Skills -->
+        <div class="about-skills" data-animate>
+          <h3>Core Skills</h3>
+
+          <div class="skill-item">
+            <div class="skill-info"><span>JavaScript</span><span>92%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="92"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info"><span>React </span><span>88%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info"><span>Node.js </span><span>85%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info"><span>MYSQL</span><span>85%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info"><span>Python Developer</span><span>92%</span></div>
+            <div class="skill-bar"><div class="skill-fill" data-width="92"></div></div>
+          </div>
+        </div>
+      </div>
+  <!-- ═══════════════════════════════
+       PROJECTS SECTION
+  ═══════════════════════════════ -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <span class="section-label">My Work</span>
+        <h2 class="section-title">Featured Projects</h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <article class="project-card" data-animate>
+          <div class="project-img project-img--1">
+            <span class="project-tag">01</span>
+          </div>
+          <div class="project-body">
+            <h3>Responsive Landing Page</h3>
+            <p>
+              A fully responsive cafe landing page built using HTML, CSS, and JavaScript.
+              Modern and mobile-friendly cafe website with interactive UI elements.
+              Designed and developed a responsive cafe website with smooth navigation and clean layout.
+              A visually appealing landing page showcasing menu, ambiance, and contact details.
+            </p>
+            <div class="project-tech">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://omx2004.github.io/Responsive_Landing__Page/" class="btn btn-sm btn-primary" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+              <a href="https://github.com/omx2004/Responsive_Landing__Page" class="btn btn-sm btn-outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card" data-animate>
+          <div class="project-img project-img--2">
+            <span class="project-tag">02</span>
+          </div>
+          <div class="project-body">
+            <h3>Stopwatch </h3>
+            <p>
+              Stopwatch Web App – Built a responsive and interactive stopwatch using HTML, CSS, and JavaScript. 
+              Features include start, pause, reset, and lap time tracking, providing accurate timing with a smooth, user-friendly interface. 
+              Ideal for showcasing real-time functionality.
+            
+            </p>
+            <div class="project-tech">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://omx2004.github.io/stopwatch/" class="btn btn-sm btn-primary" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+              <a href="https://github.com/omx2004/stopwatch" class="btn btn-sm btn-outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card" data-animate>
+          <div class="project-img project-img--3">
+            <span class="project-tag">03</span>
+          </div>
+          <div class="project-body">
+            <h3>Tic-Tack-Toe</h3>
+            <p>
+            Tic-Tac-Toe Web Game – Interactive two-player game built with HTML, CSS, and JavaScript, featuring turn-based play, win/draw detection, and a responsive design.
+            </p>
+            <div class="project-tech">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://omx2004.github.io/tick-tack-toe/" class="btn btn-sm btn-primary" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+              <a href="https://github.com/omx2004/tick-tack-toe" class="btn btn-sm btn-outline" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="project-card" data-animate>
+          <div class="project-img project-img--4">
+            <span class="project-tag">04</span>
+          </div>
+          <div class="project-body">
+            <h3>Weather Report </h3>
+            <p>
+              A modern and responsive weather web application that fetches real-time weather data via API integration and displays key details such as temperature, humidity, wind speed, and weather conditions with a clean UI.
+            </p>
+            <div class="project-tech">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://omx2004.github.io/Weather_Report/" class="btn btn-sm btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+              <a href="https://github.com/omx2004/Weather_Report" class="btn btn-sm btn-outline"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       SERVICES SECTION
+  ═══════════════════════════════ -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <span class="section-label">What I Offer</span>
+        <h2 class="section-title">Services</h2>
+      </div>
+
+      <div class="services-grid">
+
+        <div class="service-card" data-animate>
+          <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+          <h3>Web Development</h3>
+          <p>
+            End-to-end web applications — from architecture and API design to pixel-perfect
+            front-end implementation. Performant, accessible, and maintainable by default.
+          </p>
+        </div>
+
+        <div class="service-card" data-animate>
+          <div class="service-icon"><i class="fas fa-mobile-screen-button"></i></div>
+          <h3>UI / UX Design</h3>
+          <p>
+            User-centred design grounded in research. I produce wireframes, prototypes,
+            and polished design systems that your team can actually build from.
+          </p>
+        </div>
+
+        <div class="service-card" data-animate>
+          <div class="service-icon"><i class="fas fa-server"></i></div>
+          <h3> APIs &amp; Code Review</h3>
+          <p>
+            Efficient, scalable, and maintainable backend solutions
+          </p>
+        </div>
+
+        <div class="service-card" data-animate>
+          <div class="service-icon"><i class="fas fa-magnifying-glass-chart"></i></div>
+          <h3>Performance Auditing</h3>
+          <p>
+            Deep-dive Lighthouse audits, Core Web Vitals optimisation, and bundle analysis
+            to make your existing product faster and cheaper to run.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       CONTACT SECTION
+  ═══════════════════════════════ -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <span class="section-label">Get In Touch</span>
+        <h2 class="section-title">Contact Me</h2>
+      </div>
+
+      <div class="contact-grid">
+
+        <!-- Info -->
+        <div class="contact-info" data-animate>
+          <p class="contact-intro">
+            Have a project in mind or just want to say hello?
+            My inbox is always open.
+          </p>
+
+          <div class="contact-detail">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:Om@example.com">Marshivaneom@gmail.com</a>
+          </div>
+          <div class="contact-detail">
+            <i class="fas fa-location-dot"></i>
+            <span>India</span>
+          </div>
+
+          <div class="social-links">
+            <a href="#" aria-label="GitHub"    class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" aria-label="LinkedIn"  class="social-link"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <!-- Form -->
+        <form class="contact-form" id="contactForm" novalidate data-animate>
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="John Doe" />
+            <span class="form-error" id="nameError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="john@example.com" />
+            <span class="form-error" id="emailError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project…"></textarea>
+            <span class="form-error" id="messageError"></span>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-full">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+
+          <div class="form-success" id="formSuccess">
+            <i class="fas fa-circle-check"></i> Message sent! I'll get back to you soon.
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════
+       FOOTER
+  ═══════════════════════════════ -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>&copy; <span id="year"></span> Om Marshivane. Crafted with <i class="fas fa-heart"></i></p>
+      <a href="#home" class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
